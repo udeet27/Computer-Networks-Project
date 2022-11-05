@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  background: linear-gradient(
+    to right,
+    hsla(141, 54%, 86%, 1) 0%,
+    hsla(333, 73%, 85%, 1) 50%,
+    hsla(211, 58%, 79%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    hsla(141, 54%, 86%, 1) 0%,
+    hsla(333, 73%, 85%, 1) 50%,
+    hsla(211, 58%, 79%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    to right,
+    hsla(141, 54%, 86%, 1) 0%,
+    hsla(333, 73%, 85%, 1) 50%,
+    hsla(211, 58%, 79%, 1) 100%
+  );
+}
+.header-title {
+  margin: 3rem;
+  margin-bottom: 1rem;
+  font-size: 30px;
+  background: #00cddb;
+  background: linear-gradient(to right, #db1298 0%, #6e81ff 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-subtitle {
+  margin: 3rem;
+  margin-top: 0px;
+  font-size: 25px;
+  background: #00cddb;
+  background: #db1298;
+  background: linear-gradient(to right, #db1298 0%, #6e81ff 10%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name {
+  margin-left: 10rem;
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.text {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.scroll {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 8rem;
+}
+#list p {
+  font-size: 40px;
+  text-align: center;
+}
+.end {
+  font-size: 80px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  column-gap: 15px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.space-between {
+  justify-content: space-between;
+}
+.col {
+  width: 50%;
+}
+.card {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  column-gap: 20px;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.5);
+}
+.card img {
+  max-width: 250px;
+  transform: translateY(-15%);
+}
+.img-placeholder {
+  position: relative;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 16px -6px rgba(0, 0, 0, 0.75);
+}
+h3 {
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+}
+a {
+  color: #888;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}

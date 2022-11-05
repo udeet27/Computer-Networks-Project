@@ -1,0 +1,3 @@
+MAC Address is: 00:05:08:00:04:DF 
+Company Name: Inetcam, Inc
+Company Address: 10171 Pacific Mesa Blvd. San Diego CA 92121 US
